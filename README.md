@@ -33,7 +33,7 @@ The API has the following endpoints:
   <tr><td> GET  </td> 	<td>/products/category </td> <td>Retrieve a list of all products, filtered by category </td></tr>
   <tr><td> POST </td>  <td>/products </td> <td> Create a new product  </td>
   <tr><td> PUT  </td> <td>	/products </td>	<td>update an existing product  </td></tr>
-  <tr> <td>DELETE</td> <td>/products/name/td> <td> delete an existing product </td></tr>
+  <tr> <td>DELETE</td> <td>/products/name <td> delete an existing product </td></tr>
   </table>
 
 
