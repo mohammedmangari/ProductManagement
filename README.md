@@ -43,12 +43,22 @@ The product object has the following properties:
   - id (string)
   - name (string)
   - description (string)
-  - price (number)
-  - quantity (number)
+  - price (double)
+  - quantity (Integer)
+  - category (string)
 
 ## Usage
 Use the React application to interact with the API and manage the products. The application allows you to view a list of products, add new products, update existing products, and delete products.
 
+## NOTE
+
+Before running the application, you must create a collection called "Product" in your MongoDB database. The collection should contain the following fields:
+- id (unique identifier for the product)
+- name (name of the product)
+- description (description of the product)
+- quantity (quantity of the product)
+- price (price of the product)
+- category (category of the product)
 
 
 
