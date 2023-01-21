@@ -40,12 +40,11 @@ The API has the following endpoints:
 
 ## Product object
 The product object has the following properties:
-
-id (string)
-name (string)
-description (string)
-price (number)
-quantity (number)
+  - id (string)
+  - name (string)
+  - description (string)
+  - price (number)
+  - quantity (number)
 
 ## Usage
 Use the React application to interact with the API and manage the products. The application allows you to view a list of products, add new products, update existing products, and delete products.
