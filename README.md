@@ -36,11 +36,19 @@ The API has the following endpoints:
   <tr> <td>DELETE</td> <td>/products/name/td> <td> delete an existing product </td></tr>
   </table>
 
+
+
+## Product object
+The product object has the following properties:
+
+id (string)
+name (string)
+description (string)
+price (number)
+quantity (number)
+
 ## Usage
 Use the React application to interact with the API and manage the products. The application allows you to view a list of products, add new products, update existing products, and delete products.
-
-
-
 
 
 
